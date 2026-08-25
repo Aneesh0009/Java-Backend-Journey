@@ -30,5 +30,5 @@ My hands-on Java backend development journey.
 
 ## Goal
 
-Learn Java backend development through consistent
+Learn Java backend development through consistent 
 hands-on implementation and build real-world backend projects.
