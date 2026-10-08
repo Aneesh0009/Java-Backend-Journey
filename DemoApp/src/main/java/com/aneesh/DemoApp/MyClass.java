@@ -18,6 +18,4 @@ public class MyClass {
     public void build(){
         comp.build();
     }
-
-
 }
