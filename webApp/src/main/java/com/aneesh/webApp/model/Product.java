@@ -10,6 +10,15 @@ public class Product {
         this.productPrice = productPrice;
     }
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", productName='" + productName + '\'' +
+                ", productPrice='" + productPrice + '\'' +
+                '}';
+    }
+
     public int getID() {
         return id;
     }
