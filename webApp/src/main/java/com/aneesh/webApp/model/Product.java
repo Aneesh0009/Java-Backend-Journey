@@ -1,9 +1,19 @@
 package com.aneesh.webApp.model;
 
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Product {
+    @Id
     private int id;
     private String productName;
     private String productPrice;
+
+    public Product() {
+
+    }
     public Product(int id, String productName, String productPrice) {
         this.id = id;
         this.productName = productName;
